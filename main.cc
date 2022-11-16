@@ -8,7 +8,6 @@ int main() {
 
     int check;
     do {
-
         cout<<"Welcome to Scale Converter"<<endl;
         cout<<"What would you like to do?"<<endl;
         cout<<"1 \t Choose conversion units"<<endl;
