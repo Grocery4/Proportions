@@ -7,24 +7,28 @@ using namespace std;
 int main() {
 
     int check;
-    do {
         cout<<"Welcome to Scale Converter"<<endl;
+    do {
         cout<<"What would you like to do?"<<endl;
-        cout<<"1 \t Choose conversion units"<<endl;
-        cout<<"2 \t Convert"<<endl;
-        cout<<"3 \t End program"<<endl;
+        cout<<"1 \t Convert"<<endl;
+        cout<<"2 \t End Program"<<endl;
         cin>>check;
 
         switch (check)
         {
         case 1:
+            int unit;
+            cout<<"Convert:\t";
+                cout<<"|1 Time| \t";
+                cout<<"|2 Length| \t";
+                cout<<"|3 Mass| \t";
+                cout<<"|4 Temperature|"<<endl;
 
+                cout<<"Unit: ";
+                cin>>unit;
             break;
         
         case 2:
-            break;
-
-        case 3:
             cout<<"Ending program..."<<endl;
             break;
         
@@ -33,7 +37,7 @@ int main() {
             break;
         }
 
-    } while(check != 3);
+    } while(check != 2);
 
 
 
